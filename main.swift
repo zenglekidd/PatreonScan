@@ -16,13 +16,16 @@ import Foundation
 
 // The Patron Page for Materialize CSS is:
 // https://www.patreon.com/bePatron?u=8327028
+// Original range from 8327000 to 8327500...
 
+let begin = 8324000
+let end = 8329500
 print("The Patron Page for Materialize CSS is: https://www.patreon.com/bePatron?u=8327028")
-print("Let's scan for valide pages from id 8327000 to 8327500...")
+print("Let's scan for valide pages from id \(begin) to \(end)...")
 print("")
 
 var count = 0
-for i in 8327000..<8327500 {
+for i in begin..<end {
     var urlComponents = URLComponents(string: "https://www.patreon.com/bePatron?")!
     urlComponents.queryItems = [
         URLQueryItem(name: "u", value: "\(i)"),
@@ -36,7 +39,8 @@ for i in 8327000..<8327500 {
         } else {
             if let response = response as? HTTPURLResponse {
                 if response.statusCode == 200 && data!.count < 100000 {
-                    print("\(url.absoluteString), statusCode: \(response.statusCode), length: \(data!.count)")
+//                    print("\(url.absoluteString), statusCode: \(response.statusCode), length: \(data!.count)")
+                    print("\(url.absoluteString)")
                     count += 1
                 }
             }
