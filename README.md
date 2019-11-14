@@ -1,5 +1,5 @@
 # PatreonScan
-Find Patreon page of a random person.
+Find Patreon page of a random person. It's fun to explore what another human being doing that might inspire you.
 
 ## In Action
 ![animatic](https://github.com/zenglekidd/PatreonScan/blob/master/animatic.gif)
@@ -31,3 +31,8 @@ https://www.patreon.com/bePatron?u=8327496, statusCode: 200, length: 94659
 
 Total count: 15
 ```
+
+# Useage
+1. save [main.swift](https://github.com/zenglekidd/PatreonScan/blob/master/main.swift) to ~/Desktop
+2. In terminal, type in `chmod +x main.swift`
+3. Run `./main.swift`
