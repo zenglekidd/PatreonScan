@@ -1,5 +1,5 @@
 # PatreonScan
-Find Patreon page of a random person. It's fun to explore what another human being doing that might inspire you.
+Find Patreon page of a random person. It's fun to explore what another human being doing. That might inspire you.
 
 ## In Action
 ![animatic](https://github.com/zenglekidd/PatreonScan/blob/master/animatic.gif)
