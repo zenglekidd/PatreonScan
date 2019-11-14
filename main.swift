@@ -6,6 +6,11 @@
 //  Created by Le Zeng on 2019/11/13.
 //  Copyright © 2019 Le Zeng. All rights reserved.
 //
+// References:
+// 1. HTTP request
+// https://dev.to/mishimay/swift-minimum-getpost-request-codes-1085
+// 2. Runloop:
+// https://alejandromp.com/blog/2019/01/19/a-runloop-for-your-swift-script/
 
 import Foundation
 
