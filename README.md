@@ -5,7 +5,9 @@ Find Patreon page of a random person. It's fun.
 ![animatic](https://github.com/zenglekidd/PatreonScan/blob/master/animatic.gif)
 
 ## Analysis
-There're *15* valid id out of 500 we scanned. (from 8327000 to 8327500)
+There're *15* valid id out of 500 we scanned. (from 8327000 to 8327500). 
+
+Seems Patreon.com will ban ip when request around 5000 times. Make sure your scan range is <5000
 
 ## Result
 
