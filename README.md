@@ -2,7 +2,7 @@
 Find Patreon page of a random person. It's fun.
 
 ## In Action
-![animatic](https://github.com/zenglekidd/PatreonScan/blob/master/animatic.gif)
+![result](https://github.com/zenglekidd/PatreonScan/blob/master/result.gif)
 
 ## Analysis
 There're *15* valid id out of 500 we scanned. (from 8327000 to 8327500). 
